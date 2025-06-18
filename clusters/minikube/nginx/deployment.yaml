@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/hemanthbugata/minikube-task.git
     targetRevision: main
-    path: apps/sample
+    path: nginx
   destination:
     server: https://kubernetes.default.svc
     namespace: default
